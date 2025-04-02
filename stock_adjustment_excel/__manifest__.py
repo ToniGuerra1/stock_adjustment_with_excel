@@ -68,6 +68,7 @@
     "data": [
         "views/import_stock_count_wizard_views.xml",
         "security/ir.model.access.csv",
+        "static/description/logo.png",
     ],
     "installable": True,
     "application": True,
