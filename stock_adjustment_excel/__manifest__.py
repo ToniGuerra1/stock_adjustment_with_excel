@@ -25,10 +25,12 @@
 
 📂 Estructura del Excel esperada:
 
-| ORDER_NAME | PAYMENT_REF | CREATE_INVOICE |
-|------------|-------------|----------------|
-| SO1234     | Ref XYZ123  | TRUE           |
-| SO5678     | Ref ABC456  | FALSE          |
+| ORDER_NAME | PAYMENT_REF |
+
+
+| SO1234     | Ref XYZ123  |
+
+| SO5678     | Ref ABC456  |
 
 ---
 
