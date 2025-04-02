@@ -4,6 +4,64 @@
     "version": "1.0",
     "category": "Inventory",
     "author": "Toni Guerra",
+    'description': """
+📄 Importa referencias de pago desde Excel y actualiza automáticamente los pedidos de venta en Odoo. Ideal para flujos donde los pagos llegan por separado (contra reembolso, conciliación bancaria, plataformas externas, etc.).
+
+---
+
+🎯 ¿Qué hace este módulo?
+
+✅ Permite cargar un archivo Excel con:
+- Nombre del pedido (`sale.order`)
+- Referencia de pago personalizada
+- Opción de crear facturas automáticamente
+
+✅ Busca los pedidos por nombre y actualiza:
+- El campo `payment_reference`
+- Las facturas vinculadas (si existen)
+- Crea facturas nuevas si marcas “Crear Factura”
+
+---
+
+📂 Estructura del Excel esperada:
+
+| ORDER_NAME | PAYMENT_REF | CREATE_INVOICE |
+|------------|-------------|----------------|
+| SO1234     | Ref XYZ123  | TRUE           |
+| SO5678     | Ref ABC456  | FALSE          |
+
+---
+
+⚙️ Funcionalidades clave:
+
+- Carga masiva desde Excel (.xlsx)
+- Interfaz de asistente clara y fácil de usar
+- Registro de logs en el backend
+- Automatización de facturación opcional
+
+---
+
+💡 Casos de uso:
+
+- Pedidos contra reembolso o transferencia
+- Integraciones con sistemas externos que generan Excel
+- Contabilidad y conciliación más ágil
+- Añadir referencia bancaria a muchas facturas en segundos
+
+---
+
+🧪 Requisitos:
+- Formato `.xlsx`
+- Campo ORDER_NAME debe coincidir con el nombre del pedido
+
+---
+
+🛡️ Licencia: OPL-1 (uso para 1 base de datos, sin redistribución)
+💰 Precio: 49 € (pago único)
+""",
+
+    
+    """
     "website": "",
     "depends": [
         "stock",
