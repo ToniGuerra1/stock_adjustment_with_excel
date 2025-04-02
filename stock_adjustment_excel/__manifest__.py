@@ -59,9 +59,6 @@
 🛡️ Licencia: OPL-1 (uso para 1 base de datos, sin redistribución)
 💰 Precio: 9,90 € (pago único)
 """,
-
-    
-    """
     "website": "",
     "depends": [
         "stock",
