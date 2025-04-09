@@ -4,6 +4,7 @@
     "version": "1.0",
     "category": "Inventory",
     "author": "Toni Guerra",
+    "summary": "Update product stock from Excel: import counted quantities and apply inventory adjustments automatically",
     'description': """
 📦 Import Excel to Update Stock (Odoo Module)
 
