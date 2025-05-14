@@ -36,6 +36,6 @@ DEFAULT_CODE | NAME | QUANTITY
     "installable": True,
     "application": True,
     'license': 'OPL-1',
-    'price': 9.90,
+    'price': 0,
     'currency': 'EUR',
 }
